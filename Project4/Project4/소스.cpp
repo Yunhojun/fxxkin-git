@@ -8,7 +8,20 @@ int main() {
 
 	cin >> a >> b >> c;
 
+	if (c == '+')
+	{
+		cout << a + b;
+	}
+	else if (c == '-')
+	{
+		cout << a - b;
 
+	}
+	else if (c == '*')
+	{
+		cout << a * b;
+
+	}
 
 	if (c == '/') {
 		if (b == 0 ) {
