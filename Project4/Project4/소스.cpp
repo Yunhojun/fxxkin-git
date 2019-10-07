@@ -8,6 +8,21 @@ int main() {
 
 	cin >> a >> b >> c;
 
+	if (c == '+')
+	{
+		cout << a + b;
+	}
+	else if (c == '-')
+	{
+		cout << a - b;
+
+	}
+	else if (c == '*')
+	{
+		cout << a * b;
+
+	}
+
 	if (b == 0) {
 		cout << "You can't input 0 to denominator. Now denominator is 0";
 		b = 1;
